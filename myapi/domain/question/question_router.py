@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
 
-from myapi.database import get_db
+from database import get_db
 from domain.question import question_schema
 from models import Question
 

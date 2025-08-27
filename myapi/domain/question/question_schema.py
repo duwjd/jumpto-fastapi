@@ -4,4 +4,4 @@ class Question(BaseModel):
     id:int
     subject:str | None = None
     content:str
-    create_date:datetime.datetimea
+    create_date:datetime.datetime
